@@ -1,0 +1,93 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e9f7f3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.countdown-container {
+  background-color: #ffffff;
+  padding: 3rem;
+  border-radius: 24px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  color: #007e6a;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  color: #444;
+  margin: 1rem 0 0.3rem;
+  text-align: left;
+}
+
+input[type="datetime-local"],
+select {
+  width: 100%;
+  padding: 0.9rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+button,
+.button-link {
+  background-color: #007e6a;
+  color: white;
+  padding: 0.9rem 1.4rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover,
+.button-link:hover {
+  background-color: #005f51;
+}
+
+.countdown-box {
+  background-color: #f1fefb;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 12px;
+  border: 1px solid #d0d7de;
+  color: #333;
+}
+
+ul#checklist {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+ul#checklist li {
+  background-color: #f1fefb;
+  border: 1px solid #d0d7de;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #333;
+}

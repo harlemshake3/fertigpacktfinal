@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>⏰ Countdown zur Reise</title>
+  <link rel="stylesheet" href="css/countdown.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="countdown-container">
+    <h1>✈️ Dein Countdown</h1>
+
+    <label for="reisezeit">🕐 Zielzeit eingeben:</label>
+    <input type="datetime-local" id="reisezeit" />
+    <button id="startCountdown">Starten</button>
+
+    <div id="countdown" class="countdown-box">⏳ Bitte Zeit eingeben...</div>
+
+    <h2>🧳 Deine Packliste</h2>
+
+    <label for="listSelect">📝 Packliste wählen:</label>
+    <select id="listSelect">
+      <option disabled selected>Bitte Liste wählen</option>
+    </select>
+
+    <ul id="checklist"></ul>
+
+    <a href="dashboard.php" class="button-link">🔙 Zurück zum Dashboard</a>
+  </div>
+
+  <script src="js/countdown.js"></script>
+</body>
+</html>

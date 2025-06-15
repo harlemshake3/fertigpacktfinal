@@ -1,0 +1,163 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e9f7f3;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.checklist-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 480px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #007e6a;
+  font-size: 28px;
+}
+
+label[for="listSelector"] {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+  font-size: 15px;
+}
+
+#listSelector {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  appearance: none;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+form button {
+  padding: 14px 18px;
+  font-size: 16px;
+  background-color: #007e6a;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #005f51;
+}
+
+ul#checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#checklist li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  padding: 12px 16px;
+  background-color: #f1fefb;
+  border-radius: 12px;
+  border: 1px solid #d0d7de;
+  gap: 12px;
+}
+
+ul#checklist input[type="checkbox"] {
+  transform: scale(1.4);
+  accent-color: #007e6a;
+}
+
+ul#checklist label {
+  flex: 1;
+  font-size: 16px;
+  color: #374151;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #dc2626;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 6px;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.delete-btn:hover {
+  color: #b91c1c;
+}
+
+.button-link {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 24px;
+  margin-top: 20px;
+  margin-right: 10px;
+  background-color: #007e6a;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #005f51;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.save-checklist-btn {
+  background-color: #007e6a;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto 0;
+  transition: background-color 0.3s ease;
+}
+
+.save-checklist-btn:hover {
+  background-color: #005f51;
+}

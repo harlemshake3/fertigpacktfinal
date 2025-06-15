@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>📝 Meine Checkliste</title>
+  <link rel="stylesheet" href="css/checklist.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="checklist-container">
+    <h1>🧳 Reise-Checkliste</h1>
+
+    <div class="list-management">
+      <label for="listSelect">📋 Checkliste wählen:</label>
+      <select id="listSelect"></select>
+
+      <input type="text" id="newListName" placeholder="Neue Liste erstellen..." />
+      <button id="createListBtn">➕ Neue Liste</button>
+    </div>
+
+    <form id="addItemForm">
+      <input type="text" id="newItemInput" placeholder="Neuen Eintrag hinzufügen..." required />
+      <button type="submit">➕ Hinzufügen</button>
+    </form>
+
+    <ul id="checklist"></ul>
+
+    <div class="buttons">
+      <button id="saveChecklistBtn" class="button-link">💾 Checkliste speichern</button>
+      <a href="dashboard.php" class="button-link">🔙 Zurück zum Dashboard</a>
+      <a href="countdown.html" class="button-link">⏰ Zur Reiseübersicht</a>
+    </div>
+  </div>
+
+  <script src="js/checklist.js"></script>
+</body>
+</html>

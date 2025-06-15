@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.vscode/
+system/config.php
+
+# PHP sensitive files
+system/config.php
+
+# IDE & Editor-Dateien
+.vscode/
+*.log
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
