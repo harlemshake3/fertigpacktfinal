@@ -1,3 +1,6 @@
+⚠️ Die Datei `config.php` enthält lokal sensible Zugangsdaten und wurde aus Sicherheitsgründen bereinigt.
+Bitte eigene Zugangsdaten manuell einfügen.
+
 # Fertigpackt – Dein Reise-Reminder kurz vor der Ankunft
 
 ## Projektbeschreibung
